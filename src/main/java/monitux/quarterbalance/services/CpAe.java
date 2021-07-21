@@ -27,7 +27,7 @@ public class CpAe {
 
 		companies.forEach((id, company) -> {
 
-			//if (id < 1000) {
+			if (id < 1000) {
 
 				String auxUrl = "http://cp.ae.com.br/aefundamental/v1/demonstracao/detalhado?10065=xml&10023=4&10039=ae&13003=v1&13004="
 						+ id + "&13005=B&13006=" + indCon + "&13007=T&13008=" + year;
@@ -57,7 +57,7 @@ public class CpAe {
 					System.out.println(e.getMessage());
 				}
 
-			//}
+			}
 		});
 
 		/*
@@ -295,7 +295,7 @@ public class CpAe {
 			xml.forEach((idX, exerciseDate) -> {
 				exerciseDate.forEach((indCon, quarter) -> {
 
-					//if (idX < 1000) {
+					if (idX < 1000) {
 
 						if (quarter.contains("3T" + tr)) {
 							if (indCon.contains(auxIndConN)) {
@@ -317,7 +317,7 @@ public class CpAe {
 											+ auxIndConL2 + " - 3T" + tr + "), como deveria.");
 						}
 
-					//}
+					}
 
 				});
 			});
@@ -339,7 +339,7 @@ public class CpAe {
 			xml.forEach((idX, exerciseDate) -> {
 				exerciseDate.forEach((indCon, quarter) -> {
 
-					//if (idX < 1000) {
+					if (idX < 1000) {
 
 						if (quarter.contains("3T" + tr)) {
 							if (indCon.contains(auxIndConN)) {
@@ -360,7 +360,7 @@ public class CpAe {
 											+ ", porém a mesma não possui os dados do trimestre selecionado(Con "
 											+ auxIndConL2 + " - 3T" + tr + "), como deveria.");
 						}
-				//	}
+				}
 
 				});
 			});
@@ -384,7 +384,7 @@ public class CpAe {
 			xml.forEach((idX, exerciseDate) -> {
 				exerciseDate.forEach((indCon, quarter) -> {
 
-					//if (idX < 1000) {
+					if (idX < 1000) {
 
 						if (quarter.contains("4T" + tr)) {
 							if (indCon.contains(auxIndConN)) {
@@ -406,7 +406,7 @@ public class CpAe {
 											+ auxIndConL2 + " - 4T" + tr + "), como deveria.");
 						}
 
-					//}
+					}
 
 				});
 			});
@@ -428,7 +428,7 @@ public class CpAe {
 			xml.forEach((idX, exerciseDate) -> {
 				exerciseDate.forEach((indCon, quarter) -> {
 
-					//if (idX < 1000) {
+					if (idX < 1000) {
 
 						if (quarter.contains("4T" + tr)) {
 							if (indCon.contains(auxIndConN)) {
@@ -447,7 +447,7 @@ public class CpAe {
 											+ ", porém a mesma não possui os dados do trimestre selecionado(Con "
 											+ auxIndConL2 + " - 4T" + tr + "), como deveria.");
 						}
-					//}
+					}
 
 				});
 			});
