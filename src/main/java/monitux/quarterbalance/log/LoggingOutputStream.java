@@ -11,11 +11,7 @@ import java.io.PrintWriter;
 public class LoggingOutputStream {
 
 	public void log() {
-		
-		
-		
-		//System.out.println(err);
-
+	
 	}
 
 	public void whiteLog(File path, String line) {
@@ -23,11 +19,10 @@ public class LoggingOutputStream {
 		
 		try (FileOutputStream fos = new FileOutputStream(path)) {
 			
-			PrintWriter a = new PrintWriter (new FileWriter (path, true));
-		
+			PrintWriter a = new PrintWriter (new FileWriter (path, true));	
 
 			a.append(line + "\n");			
-			a.append("a");
+			
 			a.close();	
 
 		} catch (IOException e) {

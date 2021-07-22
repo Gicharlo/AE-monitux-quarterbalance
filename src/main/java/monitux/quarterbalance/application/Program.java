@@ -11,6 +11,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
 import monitux.quarterbalance.entities.CvmQuarters;
+import monitux.quarterbalance.entities.Time;
 import monitux.quarterbalance.entities.XmlQuarters;
 import monitux.quarterbalance.log.LoggingOutputStream;
 import monitux.quarterbalance.services.CpAe;
@@ -26,6 +27,9 @@ public class Program {
 		CpAe cp = new CpAe();
 		XmlQuarters xml = new XmlQuarters();
 		LoggingOutputStream log = new LoggingOutputStream();
+		Time time = new Time();
+
+		time.startTime();
 
 		String i = "I";
 		String c = "C";
@@ -305,6 +309,11 @@ public class Program {
 		// Validando Con P - 4TR no broad:
 		cp.validateFourthQuarterCon(quarters.getCompaniesFourthQuarterConP(), xml.getIdCPFourthQuarterConP(), auxPN,
 				auxPL2, checkYear);
+
+		time.finishTime();
+
+		// mostrando tempo total de execução
+		time.totalTime();
 
 		File path = new File("C:\\monitux\\quarterbalance\\logs\\console.txt");
 
