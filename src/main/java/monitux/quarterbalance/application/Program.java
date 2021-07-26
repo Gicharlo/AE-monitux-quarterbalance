@@ -246,6 +246,9 @@ public class Program {
 		PrintStream originalPrintStream = System.out;
 
 		System.setOut(ps);
+		
+		//xml.showXmlQuarterstese();
+		//quarters.showCompanies();
 
 		cp.validateFirstQuarterInd(quarters.getCompaniesFirstQuarterIndA(), xml.getIdCPFirstQuarterIndA(), auxAN,
 				auxAL2, checkYear);
@@ -309,6 +312,8 @@ public class Program {
 		// Validando Con P - 4TR no broad:
 		cp.validateFourthQuarterCon(quarters.getCompaniesFourthQuarterConP(), xml.getIdCPFourthQuarterConP(), auxPN,
 				auxPL2, checkYear);
+		
+		
 
 		time.finishTime();
 
@@ -324,7 +329,7 @@ public class Program {
 		log.whiteLog(path, output);
 
 		// mostrando xml
-		// xml.showXmlQuarters();
+		
 	}
 
 }

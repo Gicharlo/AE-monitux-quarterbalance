@@ -1,35 +1,35 @@
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 94, possui o Ind A - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 701, possui o Ind A - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 906, possui o Ind A - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 922, possui o Ind A - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 94, possui o Ind P - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 701, possui o Ind P - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 906, possui o Ind P - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 922, possui o Ind P - 1T2021, no Broadcast.
-
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 94, possui o Con A - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 701, possui o Con A - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Ind A - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind A - 1T2021, no Broadcast.
 
 
-
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 94, possui o Con P - 1T2021, no Broadcast.
-Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: 701, possui o Con P - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Ind P - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind P - 1T2021, no Broadcast.
 
 
 
-Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind A - 2T2021).
+A empresa PANATLANTICA S.A., com o id: 94, possui o Con A - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con A - 1T2021, no Broadcast.
 
 
 
-Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind P - 2T2021).
+A empresa PANATLANTICA S.A., com o id: 94, possui o Con P - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con P - 1T2021, no Broadcast.
 
 
 
-Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con A - 2T2021).
 
 
 
-Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con P - 2T2021).
+
+
+
+
+
+
 
 
 
@@ -64,7 +64,7 @@ Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período 
 Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con P - 4T2021).
 
 
-Initial date:2021/07/22 11:50:13
-Finish date:2021/07/22 11:51:26
-Runtime(min): 1.21535
+Initial date:2021/07/26 17:40:39
+Finish date:2021/07/26 17:42:06
+Runtime(min): 1.4586666666666666
 

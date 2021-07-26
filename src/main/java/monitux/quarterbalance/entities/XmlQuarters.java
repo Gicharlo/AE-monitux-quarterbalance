@@ -117,7 +117,7 @@ public class XmlQuarters {
 	}
 
 	public void showXmlQuarterstese() {
-		this.idCPFirstQuarterIndA.forEach((id, exerciseDate) -> {
+		this.idCPFirstQuarterIndA .forEach((id, exerciseDate) -> {
 			exerciseDate.forEach((indCon, quarter) -> {
 				System.out.println(id + " = {" + quarter + ", " + indCon + " } ");
 

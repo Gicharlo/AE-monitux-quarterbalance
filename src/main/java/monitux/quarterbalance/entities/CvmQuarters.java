@@ -134,7 +134,7 @@ public class CvmQuarters {
 
 	public void showCompanies() {
 
-		this.companiesFirstQuarterIndA.forEach((id, company) -> {
+		this.companiesSecondQuarterConA.forEach((id, company) -> {
 
 			System.out.println(id + " = { " + company + " } ");
 

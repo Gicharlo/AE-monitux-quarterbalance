@@ -23,7 +23,28 @@ import org.xml.sax.SAXException;
 
 public class CpAe {
 
-	public void saveXml(Map<Integer, String> companies, String filePath, String indCon, String year) throws IOException {
+	private Set<String> errorInf = new HashSet<>();
+
+	private Set<Integer> companyAux = new HashSet<>();
+
+	public Set<Integer> getCompanyAux() {
+		return companyAux;
+	}
+
+	public void setCompanyAux(Set<Integer> companyAux) {
+		this.companyAux = companyAux;
+	}
+
+	public Set<String> getErrorInf() {
+		return errorInf;
+	}
+
+	public void addtErrorInf(String errorInf) {
+		this.errorInf.add(errorInf);
+	}
+
+	public void saveXml(Map<Integer, String> companies, String filePath, String indCon, String year)
+			throws IOException {
 
 		companies.forEach((id, company) -> {
 
@@ -109,79 +130,126 @@ public class CpAe {
 			String auxIndConN, String auxIndConL2, String tr) {
 
 		try {
+
 			if (!cvm.isEmpty()) {
+
 				xml.forEach((idX, exerciseDate) -> {
 					exerciseDate.forEach((indCon, quarter) -> {
-
+						
 						if (idX < 1000) {
 
+							String valor;
 							if (quarter.contains("1T" + tr)) {
+
 								if (indCon.contains(auxIndConN)) {
-									System.out.println( "Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: "
-													+ idX + ", possui o Ind " + auxIndConL2 + " - 1T" + tr
-													+ ", no Broadcast.");
+
+									if (cvm.containsKey(idX)) {
+										valor = (String) cvm.get(idX);
+
+										System.out.println("A empresa " + valor + ", com o id: " + idX
+												+ ", possui o Ind " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+									} else {
+										System.out.println("Não foi encontrado o nome da empresa: " + idX
+												+ ", possui o Ind " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+									}
 
 								} else {
-									System.out.println(
-											"Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id:"
-													+ idX + ", não possui Ind " + auxIndConL2 + " - 1T" + tr
-													+ ", no Broadcast, como deveria.");
+									if (cvm.containsKey(idX)) {
+										valor = (String) cvm.get(idX);
+
+										System.out.println("A empresa " + valor + ", com o id:" + idX + ", não possui Ind "
+														+ auxIndConL2 + " - 1T" + tr + ", no Broadcast, como deveria.");
+									} else {
+										System.out.println("Não foi encontrado o nome da empresa: " + idX + ", e a mesma não possui Ind"
+												+ auxIndConL2 + " - 1T" + tr + ", no Broadcast, como deveria.");
+									}
 								}
+
 							} else {
-								System.out.println(
-										"Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id:" + idX
-												+ ", porém a mesma não possui os dados do trimestre selecionado(Ind "
+								if (cvm.containsKey(idX)) {
+									valor = (String) cvm.get(idX);
+								
+								System.out.println("A empresa "+ valor + ", com o id:" + idX
+												+ ", não possui os dados do trimestre selecionado(Ind "
 												+ auxIndConL2 + " - 1T" + tr + "), como deveria.");
+								}else {
+									System.out.println("Não foi encontrado o nome da empresa: " + idX
+											+ ", e a mesma não possui os dados do trimestre selecionado(Ind "
+											+ auxIndConL2 + " - 1T" + tr + "), como deveria.");
+								}
 							}
 
 						}
 
 					});
 				});
-			} 
-			
-			else {
+				
+			} else {
 				System.out.println(
 						"Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind "
 								+ auxIndConL2 + " - 1T" + tr + ").");
 			}
+			System.out.println();
+			System.out.println();
 
-			
-			}catch ( Exception e) {
-				e.getMessage();
-			   
-			}
-	
+		} catch (Exception e) {
+			e.getMessage();
+
+		}
 
 	}
 
 	public void validateFirstQuarterCon(Map<Integer, String> cvm, Map<Integer, Map<Set<String>, Set<String>>> xml,
 			String auxIndConN, String auxIndConL2, String tr) {
+		
 		System.out.println();
+		
 		if (!cvm.isEmpty()) {
 			xml.forEach((idX, exerciseDate) -> {
 				exerciseDate.forEach((indCon, quarter) -> {
 
 					if (idX < 1000) {
 
+
+						String valor;
 						if (quarter.contains("1T" + tr)) {
+
 							if (indCon.contains(auxIndConN)) {
-								System.out.println(
-										"Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: "
-												+ idX + ", possui o Con " + auxIndConL2 + " - 1T" + tr
-												+ ", no Broadcast.");
+
+								if (cvm.containsKey(idX)) {
+									valor = (String) cvm.get(idX);
+
+									System.out.println("A empresa " + valor + ", com o id: " + idX
+											+ ", possui o Con " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+								} else {
+									System.out.println("Não foi encontrado o nome da empresa: " + idX 
+											+ ", possui o Con " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+								}
 
 							} else {
-								System.out.println(
-										"Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id:"
-												+ idX + ", não possui Con " + auxIndConL2 + " - 1T" + tr
-												+ ", no Broadcast, como deveria.");
+								if (cvm.containsKey(idX)) {
+									valor = (String) cvm.get(idX);
+
+									System.out.println("A empresa " + valor + ", com o id:" + idX + ", não possui Con "
+													+ auxIndConL2 + " - 1T" + tr + ", no Broadcast, como deveria.");
+								} else {
+									System.out.println("Não foi encontrado o nome da empresa: " + idX + ", e a mesma não possui Con"
+											+ auxIndConL2 + " - 1T" + tr + ", no Broadcast, como deveria.");
+								}
 							}
+
 						} else {
-							System.out.println(
-									"Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id:" + idX
-											+ ", porém a mesma não possui os dados do trimestre selecionado(Con "
+							if (cvm.containsKey(idX)) {
+								valor = (String) cvm.get(idX);
+							
+							System.out.println("A empresa "+ valor + ", com o id:" + idX
+											+ ", não possui os dados do trimestre selecionado(Con "
 											+ auxIndConL2 + " - 1T" + tr + "), como deveria.");
+							}else {
+								System.out.println("Não foi encontrado o nome da empresa: " + idX
+										+ ", e a mesma não possui os dados do trimestre selecionado(Con "
+										+ auxIndConL2 + " - 1T" + tr + "), como deveria.");
+							}
 						}
 					}
 
@@ -197,7 +265,7 @@ public class CpAe {
 		System.out.println();
 
 	}
-	
+
 	public void validateSecondQuarterInd(Map<Integer, String> cvm, Map<Integer, Map<Set<String>, Set<String>>> xml,
 			String auxIndConN, String auxIndConL2, String tr) {
 
@@ -285,8 +353,7 @@ public class CpAe {
 		System.out.println();
 
 	}
-	
-	
+
 	public void validateThirdQuarterInd(Map<Integer, String> cvm, Map<Integer, Map<Set<String>, Set<String>>> xml,
 			String auxIndConN, String auxIndConL2, String tr) {
 
@@ -360,7 +427,7 @@ public class CpAe {
 											+ ", porém a mesma não possui os dados do trimestre selecionado(Con "
 											+ auxIndConL2 + " - 3T" + tr + "), como deveria.");
 						}
-				}
+					}
 
 				});
 			});
@@ -374,8 +441,7 @@ public class CpAe {
 		System.out.println();
 
 	}
-	
-	
+
 	public void validateFourthQuarterInd(Map<Integer, String> cvm, Map<Integer, Map<Set<String>, Set<String>>> xml,
 			String auxIndConN, String auxIndConL2, String tr) {
 
@@ -432,12 +498,14 @@ public class CpAe {
 
 						if (quarter.contains("4T" + tr)) {
 							if (indCon.contains(auxIndConN)) {
-								System.out.println("Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: "
+								System.out.println(
+										"Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id: "
 												+ idX + ", possui o Con " + auxIndConL2 + " - 4T" + tr
 												+ ", no Broadcast.");
 
 							} else {
-								System.out.println("Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id:"
+								System.out.println(
+										"Conforme as chamadas realizadas na CP pelo o id da CVM, a empresa com o id:"
 												+ idX + ", não possui Con " + auxIndConL2 + " - 4T" + tr
 												+ ", no Broadcast, como deveria.");
 							}
@@ -461,6 +529,5 @@ public class CpAe {
 		System.out.println();
 
 	}
-	
-	
+
 }
