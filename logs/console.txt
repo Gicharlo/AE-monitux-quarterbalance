@@ -1,8 +1,59 @@
-21202 = { VIX LOG�STICA S/A } 
-15539 = { NEOENERGIA S.A. } 
-7510 = { INDUSTRIAS ROMI S.A. } 
-21431 = { HYPERA S.A. } 
-7510 = {[1T2021, 2T2021], [2.01.05.02.04, 1.02.01.09.01, 2.01.05.02.05, 1.02.01.09.04, 2.01.05.02.06, 1.02.01.09.03, 2.01.05.02.01, 2.01.05.02.02, 2.03.02.02, 2.01.05.02.03, 2.03.02.01, 2.01.04.02, 2.01.04.01, 2.02.03.01, 2.01.04.03, 1.02.01.01.01, 2.02.01.01.01, 2.02.01.01.02, 2.03.03, 1.02.01.10.05, 2.03.04, 1.02.01.10.04, 2.03.01, 1.02.01.10.03, 2.03.02, 1.02.01.04.02, 1.02.01.10.02, 2.03.07, 1.02.01.10.01, 2.03.08, 2.03.05, 1.02.01.04.01, 2.03.06, 2.03, 2.02, 2.02.06.01, 2.01, 2.02.06.02, 2.03.09, 2.02.06.03, 1, 2.03.04.09, 2, 2.03.04.06, 2.01.01.01, 2.03.04.05, 2.01.01.02, 2.03.04.08, 2.03.04.07, 1.02.03.01, 1.01.06.01, 1.02.03.03, 1.02.03.02, 1.02.01, 1.02.02, 1.02.03, 1.02.04, 2.02.02.02.02, 2.02.02.02.01, 1.02.01.07.01, 2.03.04.02, 2.03.04.01, 2.03.04.04, 2.03.04.03, 2.02.01.01, 2.02.01.02, 1.01.08, 2.01.02.01, 2.01.02.02, 1.01.03, 1.01.02, 1.01.01, 1.02.02.02, 1.02.02.01, 1.01.07, 1.01.06, 1.01.05, 1.01.04, 1.01.03.02, 2.01.02, 1.01.03.01, 2.01.01, 2.01.04, 2.01.03, 2.01.06, 2.01.05, 2.02.04.01.04, 2.01.07, 2.02.04.01.03, 2.02.04.01.02, 2.02.04.01.01, 2.02.01.03, 1.02.04.01.01, 2.01.07.02, 2.02.04.02, 2.02.04.01, 2.01.06.01.01, 1.01.08.01, 1.01.08.03, 2.01.06.01.04, 1.01.08.02, 2.01.06.01.02, 2.01.06.01.03, 2.01.07.01, 1.01.02.03, 1.02.01.06, 2.02.02, 1.01.02.02, 1.02.01.07, 2.02.03, 1.01.02.01, 1.02.01.08, 1.02.01.09, 2.02.01, 1.02.01.02, 2.02.06, 1.02.01.03, 1.02.01.04, 2.02.04, 1.02.01.05, 2.02.05, 2.02.04.02.03, 2.02.04.02.02, 2.02.04.02.01, 1.01.02.01.01, 1.01.02.01.02, 1.02.01.10, 1.02.04.01, 1.02.04.02, 2.02.02.01.01, 2.01.05.01.03, 2.01.05.01.04, 2.02.02.01.03, 2.02.02.01.04, 2.01.05.01.01, 2.01.05.01, 2.02.02.02, 2.01.05.02, 2.02.02.01, 1.02.02.01.05, 1.02.02.01.04, 1.02.02.01.01, 2.01.04.01.01, 2.01.04.01.02, 1.01, 1.02, 2.02.05.01, 2.02.05.02, 2.01.06.01, 2.01.06.02, 2.01.06.02.01, 2.01.06.02.02, 2.01.06.02.03, 2.01.03.01, 2.01.03.03, 2.03.02.04, 2.01.03.02, 2.03.02.03, 2.03.02.06, 2.03.02.05, 1.01.03.01.02, 1.02.01.01, 2.01.03.01.01, 1.01.03.01.01] } 
+A empresa BANESTES S.A. - BCO EST ESPIRITO SANTO, com o id: 1155, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO PARA S.A., com o id: 1171, possui o Ind A - 1T2021, no Broadcast.
+A empresa BAUMER S.A., com o id: 1562, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DE INVESTIMENTOS S.A., com o id: 1309, possui o Ind A - 1T2021, no Broadcast.
+A empresa BICICLETAS MONARK S.A., com o id: 1694, possui o Ind A - 1T2021, no Broadcast.
+A empresa EXCELSIOR ALIMENTOS S.A., com o id: 1570, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DO BRASIL S.A., com o id: 1325, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO RIO GRANDE DO SUL S.A., com o id: 1210, possui o Ind A - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Ind A - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO NORDESTE DO BRASIL S.A., com o id: 1228, possui o Ind A - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ESTADO DE SERGIPE S.A. - BANESE, com o id: 1120, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ALFA DE INVESTIMENTO S.A., com o id: 1384, possui o Ind A - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO BRASIL S.A., com o id: 1023, possui o Ind A - 1T2021, no Broadcast.
+
+
+A empresa BANESTES S.A. - BCO EST ESPIRITO SANTO, com o id: 1155, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO PARA S.A., com o id: 1171, possui o Ind P - 1T2021, no Broadcast.
+A empresa BAUMER S.A., com o id: 1562, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DE INVESTIMENTOS S.A., com o id: 1309, possui o Ind P - 1T2021, no Broadcast.
+A empresa BICICLETAS MONARK S.A., com o id: 1694, possui o Ind P - 1T2021, no Broadcast.
+A empresa EXCELSIOR ALIMENTOS S.A., com o id: 1570, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DO BRASIL S.A., com o id: 1325, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO RIO GRANDE DO SUL S.A., com o id: 1210, possui o Ind P - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Ind P - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO NORDESTE DO BRASIL S.A., com o id: 1228, possui o Ind P - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ESTADO DE SERGIPE S.A. - BANESE, com o id: 1120, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ALFA DE INVESTIMENTO S.A., com o id: 1384, possui o Ind P - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO BRASIL S.A., com o id: 1023, possui o Ind P - 1T2021, no Broadcast.
+
+
+
+A empresa BAUMER S.A., com o id: 1562, possui o Con A - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Con A - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con A - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Con A - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Con A - 1T2021, no Broadcast.
+
+
+
+A empresa BAUMER S.A., com o id: 1562, possui o Con P - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Con P - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con P - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Con P - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Con P - 1T2021, no Broadcast.
+
+
 
 A empresa INDUSTRIAS ROMI S.A., com o id: 7510, possui o In A - 2T2021, no Broadcast.
 
@@ -51,7 +102,7 @@ Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período 
 Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con P - 4T2021).
 
 
-Initial date:2021/07/28 10:51:11
-Finish date:2021/07/28 10:52:59
-Runtime(min): 1.7927833333333334
+Initial date:2021/07/28 14:05:56
+Finish date:2021/07/28 14:07:30
+Runtime(min): 1.5668333333333333
 
