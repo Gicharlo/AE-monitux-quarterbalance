@@ -13,7 +13,7 @@ import org.xml.sax.SAXException;
 import monitux.quarterbalance.entities.CvmQuarters;
 import monitux.quarterbalance.entities.Time;
 import monitux.quarterbalance.entities.XmlQuarters;
-import monitux.quarterbalance.log.LoggingOutputStream;
+import monitux.quarterbalance.log.Logs;
 import monitux.quarterbalance.services.CpAe;
 import monitux.quarterbalance.services.CvmFile;
 
@@ -26,7 +26,7 @@ public class Program {
 		CvmQuarters quarters = new CvmQuarters();
 		CpAe cp = new CpAe();
 		XmlQuarters xml = new XmlQuarters();
-		LoggingOutputStream log = new LoggingOutputStream();
+		Logs log = new Logs();
 		Time time = new Time();
 
 		time.startTime();
@@ -328,8 +328,9 @@ public class Program {
 				auxPL2, checkYear);
 		
 		// mostrando dados
-		quarters.showCompanies();
-		xml.showXmlQuarterstese();
+		//quarters.showCompanies();
+		//xml.showXmlQuarterstese();
+		//cp.showInf();
 		
 		
 
@@ -338,13 +339,17 @@ public class Program {
 		// mostrando tempo total de execução
 		time.totalTime();
 
-		File path = new File("C:\\monitux\\quarterbalance\\logs\\console.txt");
+		File detailsPath = new File("C:\\monitux\\quarterbalance\\logs\\console.txt");
+		File path = new File("C:\\monitux\\quarterbalance\\logs\\error.txt");
 
 		System.setOut(originalPrintStream);
 
 		String output = new String(stream.toByteArray());
+		
 
-		log.whiteLog(path, output);
+		log.whiteFileDetailsLog(detailsPath, output);
+		
+		log.whiteFileLog(path, cp.getErrorInf());
 
 		// mostrando xml
 		

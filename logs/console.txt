@@ -102,7 +102,7 @@ Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período 
 Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con P - 4T2021).
 
 
-Initial date:2021/07/28 14:05:56
-Finish date:2021/07/28 14:07:30
-Runtime(min): 1.5668333333333333
+Initial date:2021/07/28 15:00:32
+Finish date:2021/07/28 15:01:59
+Runtime(min): 1.4531
 
