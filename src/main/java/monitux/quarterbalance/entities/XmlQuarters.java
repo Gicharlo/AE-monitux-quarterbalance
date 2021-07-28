@@ -55,6 +55,8 @@ public class XmlQuarters {
 	public Map<Integer, Map<Set<String>, Set<String>>> getIdCPFirstQuarterConP() {
 		return idCPFirstQuarterConP;
 	}
+	
+	
 
 	public XmlQuarters(Map<Integer, Map<Set<String>, Set<String>>> exerciseDate) {
 		this.exerciseDate = exerciseDate;
@@ -117,7 +119,7 @@ public class XmlQuarters {
 	}
 
 	public void showXmlQuarterstese() {
-		this.idCPFirstQuarterIndA .forEach((id, exerciseDate) -> {
+		this.idCPSecondQuarterConA .forEach((id, exerciseDate) -> {
 			exerciseDate.forEach((indCon, quarter) -> {
 				System.out.println(id + " = {" + quarter + ", " + indCon + " } ");
 

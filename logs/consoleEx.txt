@@ -1,0 +1,236 @@
+A empresa CIA HIDRO EL�TRICA DO S�O FRANCISCO, com o id: 3328, possui o Ind A - 1T2021, no Broadcast.
+A empresa BANESTES S.A. - BCO EST ESPIRITO SANTO, com o id: 1155, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA ESTADUAL GER.TRANS.ENER.ELET-CEEE-GT, com o id: 3204, possui o Ind A - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET BRAS S.A. - ELETROBRAS, com o id: 2437, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA FIACAO TECIDOS CEDRO CACHOEIRA, com o id: 3077, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind A - 1T2021, no Broadcast.
+A empresa GERDAU S.A., com o id: 3980, possui o Ind A - 1T2021, no Broadcast.
+A empresa CESP - CIA ENERGETICA DE SAO PAULO, com o id: 2577, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO PARA S.A., com o id: 1171, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA ENERGETICA DE MINAS GERAIS - CEMIG, com o id: 2453, possui o Ind A - 1T2021, no Broadcast.
+A empresa BAUMER S.A., com o id: 1562, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DE INVESTIMENTOS S.A., com o id: 1309, possui o Ind A - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET DE SANTA CATARINA S.A., com o id: 2461, possui o Ind A - 1T2021, no Broadcast.
+A empresa BICICLETAS MONARK S.A., com o id: 1694, possui o Ind A - 1T2021, no Broadcast.
+A empresa EXCELSIOR ALIMENTOS S.A., com o id: 1570, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA SEGUROS ALIANCA DA BAHIA, com o id: 3115, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DO BRASIL S.A., com o id: 1325, possui o Ind A - 1T2021, no Broadcast.
+A empresa MENDES JUNIOR ENGENHARIA S.A., com o id: 4782, possui o Ind A - 1T2021, no Broadcast.
+A empresa KARSTEN S.A., com o id: 4146, possui o Ind A - 1T2021, no Broadcast.
+A empresa FINANCEIRA ALFA S.A.- CRED FINANC E INVS, com o id: 3891, possui o Ind A - 1T2021, no Broadcast.
+A empresa CAMBUCI S.A., com o id: 2100, possui o Ind A - 1T2021, no Broadcast.
+A empresa GRAZZIOTIN S.A., com o id: 4537, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO RIO GRANDE DO SUL S.A., com o id: 1210, possui o Ind A - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Ind A - 1T2021, no Broadcast.
+A empresa GUARARAPES CONFECCOES S.A., com o id: 4669, possui o Ind A - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA SIDERURGICA NACIONAL, com o id: 4030, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL CATAGUASES, com o id: 3395, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA MELHORAMENTOS DE SAO PAULO, com o id: 3654, possui o Ind A - 1T2021, no Broadcast.
+A empresa ENERGISA MINAS GERAIS - DISTRIBUIDORA DE ENERGIA S/A, com o id: 3271, possui o Ind A - 1T2021, no Broadcast.
+A empresa VALE S.A., com o id: 4170, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO NORDESTE DO BRASIL S.A., com o id: 1228, possui o Ind A - 1T2021, no Broadcast.
+A empresa CONPEL CIA NORDESTINA PAPEL - EM RECUPERA��O JUDICIAL, com o id: 4685, possui o Ind A - 1T2021, no Broadcast.
+A empresa BRASKEM S.A., com o id: 4820, possui o Ind A - 1T2021, no Broadcast.
+A empresa CONSERVAS ODERICH S.A., com o id: 4693, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA TECIDOS NORTE DE MINAS COTEMINAS, com o id: 3158, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL SCHLOSSER S.A., com o id: 3549, possui o Ind A - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ESTADO DE SERGIPE S.A. - BANESE, com o id: 1120, possui o Ind A - 1T2021, no Broadcast.
+A empresa COBRASMA S.A., com o id: 4448, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA HABITASUL DE PARTICIPACOES, com o id: 3298, possui o Ind A - 1T2021, no Broadcast.
+A empresa CONSORCIO ALFA DE ADMINISTRACAO S.A., com o id: 4707, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO ALFA DE INVESTIMENTO S.A., com o id: 1384, possui o Ind A - 1T2021, no Broadcast.
+A empresa AMPLA ENERGIA E SERVICOS S.A., com o id: 3050, possui o Ind A - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA PAULISTA DE FORCA E LUZ, com o id: 3824, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA TECIDOS SANTANENSE, com o id: 4081, possui o Ind A - 1T2021, no Broadcast.
+A empresa CONSTRUTORA ADOLPHO LINDENBERG S.A., com o id: 4723, possui o Ind A - 1T2021, no Broadcast.
+A empresa REDE ENERGIA PARTICIPA��ES S.A., com o id: 3190, possui o Ind A - 1T2021, no Broadcast.
+A empresa COMPANHIA ITAUNENSE ENERGIA E PARTICIPA��ES, com o id: 3450, possui o Ind A - 1T2021, no Broadcast.
+A empresa IRANI PAPEL E EMBALAGEM S.A., com o id: 2429, possui o Ind A - 1T2021, no Broadcast.
+A empresa CIA FERRO LIGAS DA BAHIA - FERBASA, com o id: 3069, possui o Ind A - 1T2021, no Broadcast.
+A empresa BCO BRASIL S.A., com o id: 1023, possui o Ind A - 1T2021, no Broadcast.
+A empresa CORREA RIBEIRO S.A. COMERCIO E INDUSTRIA, com o id: 4863, possui o Ind A - 1T2021, no Broadcast.
+
+
+A empresa CIA HIDRO EL�TRICA DO S�O FRANCISCO, com o id: 3328, possui o Ind P - 1T2021, no Broadcast.
+A empresa BANESTES S.A. - BCO EST ESPIRITO SANTO, com o id: 1155, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA ESTADUAL GER.TRANS.ENER.ELET-CEEE-GT, com o id: 3204, possui o Ind P - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET BRAS S.A. - ELETROBRAS, com o id: 2437, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA FIACAO TECIDOS CEDRO CACHOEIRA, com o id: 3077, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind P - 1T2021, no Broadcast.
+A empresa GERDAU S.A., com o id: 3980, possui o Ind P - 1T2021, no Broadcast.
+A empresa CESP - CIA ENERGETICA DE SAO PAULO, com o id: 2577, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO PARA S.A., com o id: 1171, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA ENERGETICA DE MINAS GERAIS - CEMIG, com o id: 2453, possui o Ind P - 1T2021, no Broadcast.
+A empresa BAUMER S.A., com o id: 1562, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DE INVESTIMENTOS S.A., com o id: 1309, possui o Ind P - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET DE SANTA CATARINA S.A., com o id: 2461, possui o Ind P - 1T2021, no Broadcast.
+A empresa BICICLETAS MONARK S.A., com o id: 1694, possui o Ind P - 1T2021, no Broadcast.
+A empresa EXCELSIOR ALIMENTOS S.A., com o id: 1570, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA SEGUROS ALIANCA DA BAHIA, com o id: 3115, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO MERCANTIL DO BRASIL S.A., com o id: 1325, possui o Ind P - 1T2021, no Broadcast.
+A empresa MENDES JUNIOR ENGENHARIA S.A., com o id: 4782, possui o Ind P - 1T2021, no Broadcast.
+A empresa KARSTEN S.A., com o id: 4146, possui o Ind P - 1T2021, no Broadcast.
+A empresa FINANCEIRA ALFA S.A.- CRED FINANC E INVS, com o id: 3891, possui o Ind P - 1T2021, no Broadcast.
+A empresa CAMBUCI S.A., com o id: 2100, possui o Ind P - 1T2021, no Broadcast.
+A empresa GRAZZIOTIN S.A., com o id: 4537, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ESTADO DO RIO GRANDE DO SUL S.A., com o id: 1210, possui o Ind P - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Ind P - 1T2021, no Broadcast.
+A empresa GUARARAPES CONFECCOES S.A., com o id: 4669, possui o Ind P - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA SIDERURGICA NACIONAL, com o id: 4030, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL CATAGUASES, com o id: 3395, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA MELHORAMENTOS DE SAO PAULO, com o id: 3654, possui o Ind P - 1T2021, no Broadcast.
+A empresa ENERGISA MINAS GERAIS - DISTRIBUIDORA DE ENERGIA S/A, com o id: 3271, possui o Ind P - 1T2021, no Broadcast.
+A empresa VALE S.A., com o id: 4170, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO NORDESTE DO BRASIL S.A., com o id: 1228, possui o Ind P - 1T2021, no Broadcast.
+A empresa CONPEL CIA NORDESTINA PAPEL - EM RECUPERA��O JUDICIAL, com o id: 4685, possui o Ind P - 1T2021, no Broadcast.
+A empresa BRASKEM S.A., com o id: 4820, possui o Ind P - 1T2021, no Broadcast.
+A empresa CONSERVAS ODERICH S.A., com o id: 4693, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA TECIDOS NORTE DE MINAS COTEMINAS, com o id: 3158, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL SCHLOSSER S.A., com o id: 3549, possui o Ind P - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ESTADO DE SERGIPE S.A. - BANESE, com o id: 1120, possui o Ind P - 1T2021, no Broadcast.
+A empresa COBRASMA S.A., com o id: 4448, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA HABITASUL DE PARTICIPACOES, com o id: 3298, possui o Ind P - 1T2021, no Broadcast.
+A empresa CONSORCIO ALFA DE ADMINISTRACAO S.A., com o id: 4707, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO ALFA DE INVESTIMENTO S.A., com o id: 1384, possui o Ind P - 1T2021, no Broadcast.
+A empresa AMPLA ENERGIA E SERVICOS S.A., com o id: 3050, possui o Ind P - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA PAULISTA DE FORCA E LUZ, com o id: 3824, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA TECIDOS SANTANENSE, com o id: 4081, possui o Ind P - 1T2021, no Broadcast.
+A empresa CONSTRUTORA ADOLPHO LINDENBERG S.A., com o id: 4723, possui o Ind P - 1T2021, no Broadcast.
+A empresa REDE ENERGIA PARTICIPA��ES S.A., com o id: 3190, possui o Ind P - 1T2021, no Broadcast.
+A empresa COMPANHIA ITAUNENSE ENERGIA E PARTICIPA��ES, com o id: 3450, possui o Ind P - 1T2021, no Broadcast.
+A empresa IRANI PAPEL E EMBALAGEM S.A., com o id: 2429, possui o Ind P - 1T2021, no Broadcast.
+A empresa CIA FERRO LIGAS DA BAHIA - FERBASA, com o id: 3069, possui o Ind P - 1T2021, no Broadcast.
+A empresa BCO BRASIL S.A., com o id: 1023, possui o Ind P - 1T2021, no Broadcast.
+A empresa CORREA RIBEIRO S.A. COMERCIO E INDUSTRIA, com o id: 4863, possui o Ind P - 1T2021, no Broadcast.
+
+
+
+A empresa CIA HIDRO EL�TRICA DO S�O FRANCISCO, com o id: 3328, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL CATAGUASES, com o id: 3395, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA ESTADUAL GER.TRANS.ENER.ELET-CEEE-GT, com o id: 3204, possui o Con A - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET BRAS S.A. - ELETROBRAS, com o id: 2437, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA FIACAO TECIDOS CEDRO CACHOEIRA, com o id: 3077, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA MELHORAMENTOS DE SAO PAULO, com o id: 3654, possui o Con A - 1T2021, no Broadcast.
+A empresa VALE S.A., com o id: 4170, possui o Con A - 1T2021, no Broadcast.
+A empresa GERDAU S.A., com o id: 3980, possui o Con A - 1T2021, no Broadcast.
+A empresa CESP - CIA ENERGETICA DE SAO PAULO, com o id: 2577, possui o Con A - 1T2021, no Broadcast.
+A empresa BRASKEM S.A., com o id: 4820, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA ENERGETICA DE MINAS GERAIS - CEMIG, com o id: 2453, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA TECIDOS NORTE DE MINAS COTEMINAS, com o id: 3158, possui o Con A - 1T2021, no Broadcast.
+A empresa BAUMER S.A., com o id: 1562, possui o Con A - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET DE SANTA CATARINA S.A., com o id: 2461, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL SCHLOSSER S.A., com o id: 3549, possui o Con A - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Con A - 1T2021, no Broadcast.
+A empresa COBRASMA S.A., com o id: 4448, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA HABITASUL DE PARTICIPACOES, com o id: 3298, possui o Con A - 1T2021, no Broadcast.
+A empresa CONSORCIO ALFA DE ADMINISTRACAO S.A., com o id: 4707, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA SEGUROS ALIANCA DA BAHIA, com o id: 3115, possui o Con A - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA TECIDOS SANTANENSE, com o id: 4081, possui o Con A - 1T2021, no Broadcast.
+A empresa KARSTEN S.A., com o id: 4146, possui o Con A - 1T2021, no Broadcast.
+A empresa CONSTRUTORA ADOLPHO LINDENBERG S.A., com o id: 4723, possui o Con A - 1T2021, no Broadcast.
+A empresa CAMBUCI S.A., com o id: 2100, possui o Con A - 1T2021, no Broadcast.
+A empresa REDE ENERGIA PARTICIPA��ES S.A., com o id: 3190, possui o Con A - 1T2021, no Broadcast.
+A empresa GRAZZIOTIN S.A., com o id: 4537, possui o Con A - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Con A - 1T2021, no Broadcast.
+A empresa IRANI PAPEL E EMBALAGEM S.A., com o id: 2429, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA FERRO LIGAS DA BAHIA - FERBASA, com o id: 3069, possui o Con A - 1T2021, no Broadcast.
+A empresa GUARARAPES CONFECCOES S.A., com o id: 4669, possui o Con A - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con A - 1T2021, no Broadcast.
+A empresa CIA SIDERURGICA NACIONAL, com o id: 4030, possui o Con A - 1T2021, no Broadcast.
+A empresa CORREA RIBEIRO S.A. COMERCIO E INDUSTRIA, com o id: 4863, possui o Con A - 1T2021, no Broadcast.
+
+
+
+A empresa CIA HIDRO EL�TRICA DO S�O FRANCISCO, com o id: 3328, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL CATAGUASES, com o id: 3395, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA ESTADUAL GER.TRANS.ENER.ELET-CEEE-GT, com o id: 3204, possui o Con P - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET BRAS S.A. - ELETROBRAS, com o id: 2437, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA FIACAO TECIDOS CEDRO CACHOEIRA, com o id: 3077, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA MELHORAMENTOS DE SAO PAULO, com o id: 3654, possui o Con P - 1T2021, no Broadcast.
+A empresa VALE S.A., com o id: 4170, possui o Con P - 1T2021, no Broadcast.
+A empresa GERDAU S.A., com o id: 3980, possui o Con P - 1T2021, no Broadcast.
+A empresa CESP - CIA ENERGETICA DE SAO PAULO, com o id: 2577, possui o Con P - 1T2021, no Broadcast.
+A empresa BRASKEM S.A., com o id: 4820, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA ENERGETICA DE MINAS GERAIS - CEMIG, com o id: 2453, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA TECIDOS NORTE DE MINAS COTEMINAS, com o id: 3158, possui o Con P - 1T2021, no Broadcast.
+A empresa BAUMER S.A., com o id: 1562, possui o Con P - 1T2021, no Broadcast.
+A empresa CENTRAIS ELET DE SANTA CATARINA S.A., com o id: 2461, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA INDUSTRIAL SCHLOSSER S.A., com o id: 3549, possui o Con P - 1T2021, no Broadcast.
+A empresa PANATLANTICA S.A., com o id: 94, possui o Con P - 1T2021, no Broadcast.
+A empresa COBRASMA S.A., com o id: 4448, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA HABITASUL DE PARTICIPACOES, com o id: 3298, possui o Con P - 1T2021, no Broadcast.
+A empresa CONSORCIO ALFA DE ADMINISTRACAO S.A., com o id: 4707, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA SEGUROS ALIANCA DA BAHIA, com o id: 3115, possui o Con P - 1T2021, no Broadcast.
+A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA TECIDOS SANTANENSE, com o id: 4081, possui o Con P - 1T2021, no Broadcast.
+A empresa KARSTEN S.A., com o id: 4146, possui o Con P - 1T2021, no Broadcast.
+A empresa CONSTRUTORA ADOLPHO LINDENBERG S.A., com o id: 4723, possui o Con P - 1T2021, no Broadcast.
+A empresa CAMBUCI S.A., com o id: 2100, possui o Con P - 1T2021, no Broadcast.
+A empresa REDE ENERGIA PARTICIPA��ES S.A., com o id: 3190, possui o Con P - 1T2021, no Broadcast.
+A empresa GRAZZIOTIN S.A., com o id: 4537, possui o Con P - 1T2021, no Broadcast.
+A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Con P - 1T2021, no Broadcast.
+A empresa IRANI PAPEL E EMBALAGEM S.A., com o id: 2429, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA FERRO LIGAS DA BAHIA - FERBASA, com o id: 3069, possui o Con P - 1T2021, no Broadcast.
+A empresa GUARARAPES CONFECCOES S.A., com o id: 4669, possui o Con P - 1T2021, no Broadcast.
+A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con P - 1T2021, no Broadcast.
+A empresa CIA SIDERURGICA NACIONAL, com o id: 4030, possui o Con P - 1T2021, no Broadcast.
+A empresa CORREA RIBEIRO S.A. COMERCIO E INDUSTRIA, com o id: 4863, possui o Con P - 1T2021, no Broadcast.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind A - 3T2021).
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind P - 3T2021).
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con A - 3T2021).
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con P - 3T2021).
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind A - 4T2021).
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind P - 4T2021).
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con A - 4T2021).
+
+
+
+Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con P - 4T2021).
+
+
+Initial date:2021/07/27 17:28:34
+Finish date:2021/07/27 17:31:26
+Runtime(min): 2.866816666666667
+

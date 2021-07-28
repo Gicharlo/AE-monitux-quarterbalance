@@ -126,9 +126,10 @@ public class Program {
 		cvmFile.saveFile(fileITRConP, quarters.getCompaniesFirstQuarterConP(), quarters.getCompaniesSecondQuarterConP(),
 				quarters.getCompaniesThirdQuarterConP(), quarters.getCompaniesFourthQuarterConP());
 
-		// mostrando arquivo cvm Ind A
-		// quarters.showCompanies();
-
+		
+		
+		
+		
 		// Buscando & Salvando arquivos das Chamadas CP dos ID de empresas com Ind A -
 		// 1TR:
 		cp.saveXml(quarters.getCompaniesFirstQuarterIndA(), firstPathIndA, i, checkYear);
@@ -144,7 +145,10 @@ public class Program {
 		// Buscando & Salvando arquivos das Chamadas CP dos ID de empresas com Con P -
 		// 1TR:
 		cp.saveXml(quarters.getCompaniesFirstQuarterConP(), firstPathConP, c, checkYear);
+		
+	
 
+		
 		// Buscando & Salvando arquivos das Chamadas CP dos ID de empresas com Ind A -
 		// 2TR:
 		cp.saveXml(quarters.getCompaniesSecondQuarterIndA(), secondPathIndA, i, checkYear);
@@ -159,7 +163,7 @@ public class Program {
 
 		// Buscando & Salvando arquivos das Chamadas CP dos ID de empresas com Con P -
 		// 2TR:
-		cp.saveXml(quarters.getCompaniesSecondQuarterConA(), secondPathConP, c, checkYear);
+		cp.saveXml(quarters.getCompaniesSecondQuarterConP(), secondPathConP, c, checkYear);
 
 		// Buscando & Salvando arquivos das Chamadas CP dos ID de empresas com Ind A -
 		// 3TR:
@@ -200,18 +204,24 @@ public class Program {
 
 		// Lendo chamadas CP & Salvando Con P - 1TR:
 		cp.readingXml(tr1ConP, xml.getIdCPFirstQuarterConP());
+		
+		
+		
 
 		// Lendo chamadas CP & Salvando Ind A - 2TR:
-		cp.readingXml(tr2IndA, xml.getIdCPFirstQuarterIndA());
+		cp.readingXml(tr2IndA, xml.getIdCPSecondQuarterIndA());
 
 		// Lendo chamadas CP & Salvando Ind P - 2TR:
-		cp.readingXml(tr2IndP, xml.getIdCPFirstQuarterIndP());
+		cp.readingXml(tr2IndP, xml.getIdCPSecondQuarterIndP());
+			
 
 		// Lendo chamadas CP & Salvando Con A - 2TR:
-		cp.readingXml(tr2ConA, xml.getIdCPFirstQuarterConA());
+		cp.readingXml(tr2ConA, xml.getIdCPSecondQuarterConA());
 
 		// Lendo chamadas CP & Salvando Con P - 2TR:
-		cp.readingXml(tr2ConP, xml.getIdCPFirstQuarterConP());
+		cp.readingXml(tr2ConP, xml.getIdCPSecondQuarterConP());
+		
+		
 
 		// Lendo chamadas CP & Salvando Ind A - 3TR:
 		cp.readingXml(tr3IndA, xml.getIdCPThirdQuarterIndA());
@@ -238,13 +248,13 @@ public class Program {
 		cp.readingXml(tr4ConP, xml.getIdCPFourthQuarterConP());
 
 		// Validando Ind A - 1TR no broad:
-
+		
 		ByteArrayOutputStream stream = new ByteArrayOutputStream();
 
 		PrintStream ps = new PrintStream(stream);
 
 		PrintStream originalPrintStream = System.out;
-
+		
 		System.setOut(ps);
 		
 		//xml.showXmlQuarterstese();
@@ -264,6 +274,10 @@ public class Program {
 		// Validando Con P - 1TR no broad:
 		cp.validateFirstQuarterCon(quarters.getCompaniesFirstQuarterConP(), xml.getIdCPFirstQuarterConP(), auxPN,
 				auxPL2, checkYear);
+		
+		
+		
+	
 
 		// Validando Ind A - 2TR no broad:
 		cp.validateSecondQuarterInd(quarters.getCompaniesSecondQuarterIndA(), xml.getIdCPSecondQuarterIndA(), auxAN,
@@ -312,6 +326,10 @@ public class Program {
 		// Validando Con P - 4TR no broad:
 		cp.validateFourthQuarterCon(quarters.getCompaniesFourthQuarterConP(), xml.getIdCPFourthQuarterConP(), auxPN,
 				auxPL2, checkYear);
+		
+		// mostrando dados
+		quarters.showCompanies();
+		xml.showXmlQuarterstese();
 		
 		
 
