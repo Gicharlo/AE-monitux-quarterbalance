@@ -1,57 +1,15 @@
-A empresa BCO ESTADO DE SERGIPE S.A. - BANESE, com o id: 1120, possui o Ind A - 1T2021, no Broadcast.
-A empresa EXCELSIOR ALIMENTOS S.A., com o id: 1570, possui o Ind A - 1T2021, no Broadcast.
-A empresa BANESTES S.A. - BCO EST ESPIRITO SANTO, com o id: 1155, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO ALFA DE INVESTIMENTO S.A., com o id: 1384, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO NORDESTE DO BRASIL S.A., com o id: 1228, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO MERCANTIL DO BRASIL S.A., com o id: 1325, possui o Ind A - 1T2021, no Broadcast.
-A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO ESTADO DO PARA S.A., com o id: 1171, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO ESTADO DO RIO GRANDE DO SUL S.A., com o id: 1210, possui o Ind A - 1T2021, no Broadcast.
-A empresa BAUMER S.A., com o id: 1562, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO MERCANTIL DE INVESTIMENTOS S.A., com o id: 1309, possui o Ind A - 1T2021, no Broadcast.
-A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Ind A - 1T2021, no Broadcast.
-A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind A - 1T2021, no Broadcast.
-A empresa BICICLETAS MONARK S.A., com o id: 1694, possui o Ind A - 1T2021, no Broadcast.
-A empresa PANATLANTICA S.A., com o id: 94, possui o Ind A - 1T2021, no Broadcast.
-A empresa BCO BRASIL S.A., com o id: 1023, possui o Ind A - 1T2021, no Broadcast.
+Chamadas CP vazias p/ In A - 1T2021, CVM publicou.
 
 
-A empresa BCO ESTADO DE SERGIPE S.A. - BANESE, com o id: 1120, possui o Ind P - 1T2021, no Broadcast.
-A empresa EXCELSIOR ALIMENTOS S.A., com o id: 1570, possui o Ind P - 1T2021, no Broadcast.
-A empresa BANESTES S.A. - BCO EST ESPIRITO SANTO, com o id: 1155, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO ALFA DE INVESTIMENTO S.A., com o id: 1384, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO BRADESCO S.A., com o id: 906, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO NORDESTE DO BRASIL S.A., com o id: 1228, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO MERCANTIL DO BRASIL S.A., com o id: 1325, possui o Ind P - 1T2021, no Broadcast.
-A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO ESTADO DO PARA S.A., com o id: 1171, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO ESTADO DO RIO GRANDE DO SUL S.A., com o id: 1210, possui o Ind P - 1T2021, no Broadcast.
-A empresa BAUMER S.A., com o id: 1562, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO AMAZONIA S.A., com o id: 922, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO MERCANTIL DE INVESTIMENTOS S.A., com o id: 1309, possui o Ind P - 1T2021, no Broadcast.
-A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Ind P - 1T2021, no Broadcast.
-A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Ind P - 1T2021, no Broadcast.
-A empresa BICICLETAS MONARK S.A., com o id: 1694, possui o Ind P - 1T2021, no Broadcast.
-A empresa PANATLANTICA S.A., com o id: 94, possui o Ind P - 1T2021, no Broadcast.
-A empresa BCO BRASIL S.A., com o id: 1023, possui o Ind P - 1T2021, no Broadcast.
+Chamadas CP vazias p/ In P - 1T2021, CVM publicou.
 
 
 
-A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Con A - 1T2021, no Broadcast.
-A empresa BAUMER S.A., com o id: 1562, possui o Con A - 1T2021, no Broadcast.
-A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Con A - 1T2021, no Broadcast.
-A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con A - 1T2021, no Broadcast.
-A empresa PANATLANTICA S.A., com o id: 94, possui o Con A - 1T2021, no Broadcast.
+Chamadas CP vazias p/ Con A - 1T2021, CVM publicou.
 
 
 
-A empresa BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERA��O JUDICIAL, com o id: 1520, possui o Con P - 1T2021, no Broadcast.
-A empresa BAUMER S.A., com o id: 1562, possui o Con P - 1T2021, no Broadcast.
-A empresa PARTICIPA��ES INDUST. DO NORDESTE S.A., com o id: 1597, possui o Con P - 1T2021, no Broadcast.
-A empresa BAHEMA EDUCA��O S.A., com o id: 701, possui o Con P - 1T2021, no Broadcast.
-A empresa PANATLANTICA S.A., com o id: 94, possui o Con P - 1T2021, no Broadcast.
+Chamadas CP vazias p/ Con P - 1T2021, CVM publicou.
 
 
 
@@ -102,7 +60,7 @@ Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período 
 Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con P - 4T2021).
 
 
-Initial date:2021/07/30 13:23:28
-Finish date:2021/07/30 13:24:56
-Runtime(min): 1.4637666666666667
+Initial date:2021/07/30 13:20:08
+Finish date:2021/07/30 13:21:08
+Runtime(min): 0.9983666666666666
 

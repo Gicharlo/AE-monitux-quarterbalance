@@ -712,9 +712,19 @@ public class CpAe {
 
 	}
 	
-	//public void FilesDetele(String path){
-		
-		
-	//}
+	public void filesDelete(File pathIndA, File pathIndP, File pathConA, File pathConP){
+		for (File file : pathIndA.listFiles()) {
+			file.delete();
+		}	
+		for (File file : pathIndP.listFiles()) {
+			file.delete();
+		}	
+		for (File file : pathConA.listFiles()) {
+			file.delete();
+		}	
+		for (File file : pathConP.listFiles()) {
+			file.delete();
+		}	
+	}
 
 }
