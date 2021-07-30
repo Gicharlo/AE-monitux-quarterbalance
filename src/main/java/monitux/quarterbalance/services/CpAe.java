@@ -58,7 +58,7 @@ public class CpAe {
 					URL url = new URL(auxUrl);
 
 					File file = new File(filePath + id + ".xml");
-
+					
 					BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
 					BufferedWriter out = new BufferedWriter(new FileWriter(file));
 
@@ -73,6 +73,11 @@ public class CpAe {
 					in.close();
 					out.flush();
 					out.close();
+					
+
+					if (file.length() <= 156) {
+						file.delete();
+					}
 
 				} catch (IOException e) {
 					System.out.println(e.getMessage());
@@ -110,6 +115,7 @@ public class CpAe {
 			Set<String> auxIndCon = new HashSet<>();
 
 			for (int i = 0; i < DATA_EXERCICIOList.getLength(); i++) {
+
 				Element quartersElement = (Element) DATA_EXERCICIOList.item(i);
 				Element indConElement = (Element) CODIGO_CONTAList.item(i);
 
@@ -122,6 +128,7 @@ public class CpAe {
 				xml.put(aux2, new HashMap<Set<String>, Set<String>>());
 				xml.get(aux2).put(auxIndCon, auxQuarters);
 			}
+
 		}
 
 	}
@@ -133,73 +140,85 @@ public class CpAe {
 
 			if (!cvm.isEmpty()) {
 
-				xml.forEach((idX, exerciseDate) -> {
-					exerciseDate.forEach((indCon, quarter) -> {
+				if (!xml.isEmpty()) {
 
-						if (idX < 2000) {
+					xml.forEach((idX, exerciseDate) -> {
+						exerciseDate.forEach((indCon, quarter) -> {
 
-							String value;
+							if (idX < 2000) {
 
-							if (quarter.contains("1T" + tr)) {
+								String value;
 
-								if (indCon.contains(auxIndConN)) {
+								if (quarter.contains("1T" + tr)) {
 
-									if (cvm.containsKey(idX)) {
-										value = (String) cvm.get(idX);
+									if (indCon.contains(auxIndConN)) {
 
-										System.out.println("A empresa " + value + ", com o id: " + idX
-												+ ", possui o Ind " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
-										errorInf.add(value + "salvando 1T - In" + tr);
+										if (cvm.containsKey(idX)) {
+											value = (String) cvm.get(idX);
+
+											System.out.println(
+													"A empresa " + value + ", com o id: " + idX + ", possui o Ind "
+															+ auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+											errorInf.add(value + "salvando 1T - In" + tr);
+
+										} else {
+											System.out.println(
+													"Não foi encontrado o nome da empresa: " + idX + ", possui o Ind "
+															+ auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+											errorInf.add("salvando 1T - In" + tr);
+										}
 
 									} else {
-										System.out.println("Não foi encontrado o nome da empresa: " + idX
-												+ ", possui o Ind " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
-										errorInf.add("salvando 1T - In" + tr);
+										if (cvm.containsKey(idX)) {
+											value = (String) cvm.get(idX);
+
+											System.out.println("A empresa " + value + ", com o id:" + idX
+													+ ", não possui Ind " + auxIndConL2 + " - 1T" + tr
+													+ ", no Broadcast, como deveria.");
+
+											errorInf.add(
+													value + " - 1T " + tr + "Ind - " + auxIndConN + " (NÃO POSSUI)");
+
+										} else {
+											System.out.println("Não foi encontrado o nome da empresa: " + idX
+													+ ", e a mesma não possui Ind" + auxIndConL2 + " - 1T" + tr
+													+ ", no Broadcast, como deveria.");
+											errorInf.add("1T " + tr + "Ind - " + auxIndConN + " (NÃO POSSUI)");
+										}
 									}
 
 								} else {
 									if (cvm.containsKey(idX)) {
 										value = (String) cvm.get(idX);
 
-										System.out.println(
-												"A empresa " + value + ", com o id:" + idX + ", não possui Ind "
-														+ auxIndConL2 + " - 1T" + tr + ", no Broadcast, como deveria.");
-
-										errorInf.add(value + " - 1T " + tr + "Ind - " + auxIndConN + " (NÃO POSSUI)");
-
+										System.out.println("A empresa " + value + ", com o id:" + idX
+												+ ", não possui os dados do trimestre selecionado(Ind " + auxIndConL2
+												+ " - 1T" + tr + "), como deveria.");
+										errorInf.add(value + " - 1T " + tr + " (NÃO POSSUI) \n");
 									} else {
 										System.out.println("Não foi encontrado o nome da empresa: " + idX
-												+ ", e a mesma não possui Ind" + auxIndConL2 + " - 1T" + tr
-												+ ", no Broadcast, como deveria.");
-										errorInf.add("1T " + tr + "Ind - " + auxIndConN + " (NÃO POSSUI)");
+												+ ", e a mesma não possui os dados do trimestre selecionado(Ind "
+												+ auxIndConL2 + " - 1T" + tr + "), como deveria.");
+										errorInf.add("1T " + tr + " (NÃO POSSUI) \n");
 									}
 								}
 
-							} else {
-								if (cvm.containsKey(idX)) {
-									value = (String) cvm.get(idX);
-
-									System.out.println("A empresa " + value + ", com o id:" + idX
-											+ ", não possui os dados do trimestre selecionado(Ind " + auxIndConL2
-											+ " - 1T" + tr + "), como deveria.");
-									errorInf.add(value + " - 1T " + tr + " (NÃO POSSUI) \n");
-								} else {
-									System.out.println("Não foi encontrado o nome da empresa: " + idX
-											+ ", e a mesma não possui os dados do trimestre selecionado(Ind "
-											+ auxIndConL2 + " - 1T" + tr + "), como deveria.");
-									errorInf.add("1T " + tr + " (NÃO POSSUI) \n");
-								}
 							}
 
-						}
-
+						});
 					});
-				});
+
+				} else {
+					System.out.println("Chamadas CP vazias p/ In " + auxIndConL2 + " - 1T" + tr + ", CVM publicou.");
+
+					errorInf.add("Chamadas CP vazias p/ In " + auxIndConL2 + " - 1T" + tr + ", CVM publicou.");
+				}
 
 			} else {
-				System.out.println(
-						"Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind "
-								+ auxIndConL2 + " - 1T" + tr + ").");
+
+				System.out.println("As chamadas na CP retornaram informações vazias para In " + auxIndConL2 + "- 1T"
+						+ tr + ", considerando que a CVM não publicou inf.");
+
 			}
 			System.out.println();
 			System.out.println();
@@ -217,63 +236,73 @@ public class CpAe {
 		System.out.println();
 
 		if (!cvm.isEmpty()) {
-			xml.forEach((idX, exerciseDate) -> {
-				exerciseDate.forEach((indCon, quarter) -> {
 
-					if (idX < 2000) {
+			if (!xml.isEmpty()) {
+				
+				xml.forEach((idX, exerciseDate) -> {
+					exerciseDate.forEach((indCon, quarter) -> {
 
-						String value;
+						if (idX < 2000) {
 
-						if (quarter.contains("1T" + tr)) {
+							String value;
 
-							if (indCon.contains(auxIndConN)) {
+							if (quarter.contains("1T" + tr)) {
 
-								if (cvm.containsKey(idX)) {
-									value = (String) cvm.get(idX);
+								if (indCon.contains(auxIndConN)) {
 
-									System.out.println("A empresa " + value + ", com o id: " + idX + ", possui o Con "
-											+ auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
-									errorInf.add(value + "salvando 1T - Con" + tr);
+									if (cvm.containsKey(idX)) {
+										value = (String) cvm.get(idX);
+
+										System.out.println("A empresa " + value + ", com o id: " + idX
+												+ ", possui o Con " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+										errorInf.add(value + "salvando 1T - Con" + tr);
+									} else {
+										System.out.println("Não foi encontrado o nome da empresa: " + idX
+												+ ", possui o Con " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
+										errorInf.add("salvando 1T - Con" + tr);
+									}
+
 								} else {
-									System.out.println("Não foi encontrado o nome da empresa: " + idX
-											+ ", possui o Con " + auxIndConL2 + " - 1T" + tr + ", no Broadcast.");
-									errorInf.add("salvando 1T - Con" + tr);
+									if (cvm.containsKey(idX)) {
+										value = (String) cvm.get(idX);
+
+										System.out.println(
+												"A empresa " + value + ", com o id:" + idX + ", não possui Con "
+														+ auxIndConL2 + " - 1T" + tr + ", no Broadcast, como deveria.");
+										errorInf.add(value + " - 1T " + tr + "Con - " + auxIndConN + " (NÃO POSSUI)");
+									} else {
+										System.out.println("Não foi encontrado o nome da empresa: " + idX
+												+ ", e a mesma não possui Con" + auxIndConL2 + " - 1T" + tr
+												+ ", no Broadcast, como deveria.");
+										errorInf.add("1T " + tr + "Con - " + auxIndConN + " (NÃO POSSUI)");
+									}
 								}
 
 							} else {
 								if (cvm.containsKey(idX)) {
 									value = (String) cvm.get(idX);
 
-									System.out.println("A empresa " + value + ", com o id:" + idX + ", não possui Con "
-											+ auxIndConL2 + " - 1T" + tr + ", no Broadcast, como deveria.");
-									errorInf.add(value + " - 1T " + tr + "Con - " + auxIndConN + " (NÃO POSSUI)");
+									System.out.println("A empresa " + value + ", com o id:" + idX
+											+ ", não possui os dados do trimestre selecionado(Con " + auxIndConL2
+											+ " - 1T" + tr + "), como deveria.");
+									errorInf.add(value + " - 1T " + tr + " (NÃO POSSUI)");
 								} else {
 									System.out.println("Não foi encontrado o nome da empresa: " + idX
-											+ ", e a mesma não possui Con" + auxIndConL2 + " - 1T" + tr
-											+ ", no Broadcast, como deveria.");
-									errorInf.add("1T " + tr + "Con - " + auxIndConN + " (NÃO POSSUI)");
+											+ ", e a mesma não possui os dados do trimestre selecionado(Con "
+											+ auxIndConL2 + " - 1T" + tr + "), como deveria.");
+									errorInf.add("1T " + tr + " (NÃO POSSUI) \n");
 								}
-							}
-
-						} else {
-							if (cvm.containsKey(idX)) {
-								value = (String) cvm.get(idX);
-
-								System.out.println("A empresa " + value + ", com o id:" + idX
-										+ ", não possui os dados do trimestre selecionado(Con " + auxIndConL2 + " - 1T"
-										+ tr + "), como deveria.");
-								errorInf.add(value + " - 1T " + tr + " (NÃO POSSUI)");
-							} else {
-								System.out.println("Não foi encontrado o nome da empresa: " + idX
-										+ ", e a mesma não possui os dados do trimestre selecionado(Con " + auxIndConL2
-										+ " - 1T" + tr + "), como deveria.");
-								errorInf.add("1T " + tr + " (NÃO POSSUI) \n");
 							}
 						}
-					}
 
+					});
 				});
-			});
+			} else {
+				System.out.println("Chamadas CP vazias p/ Con " + auxIndConL2 + " - 1T" + tr + ", CVM publicou.");
+
+				errorInf.add("Chamadas CP vazias p/ Con " + auxIndConL2 + " - 1T" + tr + ", CVM publicou.");
+			}
+
 		} else {
 			System.out.println(
 					"Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con "
@@ -291,6 +320,9 @@ public class CpAe {
 		System.out.println();
 
 		if (!cvm.isEmpty()) {
+			
+			if(!xml.isEmpty()) {
+			
 			xml.forEach((idX, exerciseDate) -> {
 				exerciseDate.forEach((indCon, quarter) -> {
 
@@ -350,6 +382,12 @@ public class CpAe {
 				});
 			});
 		} else {
+			System.out.println("Chamadas CP vazias p/ In " + auxIndConL2 + " - 2T" + tr + ", CVM publicou.");
+
+			errorInf.add("Chamadas CP vazias p/ In " + auxIndConL2 + " - 2T" + tr + ", CVM publicou.");
+		}
+		
+		} else {
 			System.out.println(
 					"Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Ind "
 							+ auxIndConL2 + " - 2T" + tr + ").");
@@ -364,6 +402,9 @@ public class CpAe {
 			String auxIndConN, String auxIndConL2, String tr) {
 		System.out.println();
 		if (!cvm.isEmpty()) {
+			
+			if(!xml.isEmpty()) {
+			
 			xml.forEach((idX, exerciseDate) -> {
 				exerciseDate.forEach((indCon, quarter) -> {
 
@@ -420,6 +461,12 @@ public class CpAe {
 
 				});
 			});
+			
+		} else {
+			System.out.println("Chamadas CP vazias p/ Con " + auxIndConL2 + " - 2T" + tr + ", CVM publicou.");
+
+			errorInf.add("Chamadas CP vazias p/ Con " + auxIndConL2 + " - 2T" + tr + ", CVM publicou.");
+		}
 		} else {
 			System.out.println(
 					"Não foi realizadas chamadas na Cp, pois a CVM não publicou dados p/o período selecionado (Con "
@@ -453,8 +500,8 @@ public class CpAe {
 											+ auxIndConL2 + " - 3T" + tr + ", no Broadcast.");
 									errorInf.add(value + "salvando 3T - In" + tr);
 								} else {
-									System.out.println("Não foi encontrado o nome da empresa: " + idX
-											+ ", possui o In " + auxIndConL2 + " - 3T" + tr + ", no Broadcast.");
+									System.out.println("Não foi encontrado o nome da empresa: " + idX + ", possui o In "
+											+ auxIndConL2 + " - 3T" + tr + ", no Broadcast.");
 									errorInf.add("salvando 3T - In" + tr);
 								}
 
@@ -466,9 +513,9 @@ public class CpAe {
 											+ auxIndConL2 + " - 3T" + tr + ", no Broadcast, como deveria.");
 									errorInf.add(value + " - 3T " + tr + "In - " + auxIndConN + " (NÃO POSSUI)");
 								} else {
-									System.out.println("Não foi encontrado o nome da empresa: " + idX
-											+ ", e a mesma não possui In" + auxIndConL2 + " - 3T" + tr
-											+ ", no Broadcast, como deveria.");
+									System.out.println(
+											"Não foi encontrado o nome da empresa: " + idX + ", e a mesma não possui In"
+													+ auxIndConL2 + " - 3T" + tr + ", no Broadcast, como deveria.");
 									errorInf.add("3T " + tr + "In - " + auxIndConN + " (NÃO POSSUI)");
 								}
 							}
@@ -489,7 +536,6 @@ public class CpAe {
 							}
 						}
 
-						
 					}
 
 				});
@@ -665,5 +711,10 @@ public class CpAe {
 		System.out.println();
 
 	}
+	
+	//public void FilesDetele(String path){
+		
+		
+	//}
 
 }
